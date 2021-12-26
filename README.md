@@ -11,7 +11,7 @@ UPDATE `oc_user` SET `password` = md5('newpassword') WHERE `username` = 'admin';
 Outra maneira com apenas acesso ao FTP fazer o upload de um script PHP que execute a consulta acima.
 Por exemplo. cole isso em um arquivo reset-admin.php e faça upload para a raiz (mesma pasta que config.php). Em seguida, visite este arquivo em um navegador ou linha de comando.
 
- ### Executando o arquivo "reset-admin.php" ou o comando direto no SQL
+ ### Executando o arquivo "reset-admin.php"
   - Coloque o arquivo "reset-admin.php" na raiz da instalação de sua loja
   - Acesse a URL de sua loja "minhaloja.com/reset-admin"
   - Antes de executar, altere a senha ao seu gosto e/ou altere apos o primeiro acesso.
