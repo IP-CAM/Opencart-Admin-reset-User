@@ -5,7 +5,7 @@ Uma das maneiras mais fáceis de redefinir os dados no banco de dados.
 1. Faça login no PHPMyAdmin, para acessar o banco de dados opencart e vá para a guia SQL.
 2. Execute a consulta abaixo - substitua: senha realmente longa, nome de usuário do administrador e 'oc_' pelo prefixo do seu banco de dados
 <code>
-UPDATE `oc_user` SET `password` = md5('newpassword') WHERE `username` = 'admin';
+UPDATE `oc_user` SET `password` = md5('mudar123') WHERE `username` = 'admin';
 </code>
 
 Outra maneira com apenas acesso ao FTP fazer o upload de um script PHP que execute a consulta acima.
